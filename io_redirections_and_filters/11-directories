@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --ignore "./.." -la | wc -l
+find /holbertonschool-shell/io_redirections_and_filters/ -type f,d ! -name "io_redirections_and_filters" -print | wc -l
