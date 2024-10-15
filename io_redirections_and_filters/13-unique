@@ -1,2 +1,2 @@
 #!/bin/bash
-echo je suis la la la la je | sort | uniq -u
+uniq -u
