@@ -1,2 +1,2 @@
 #!/bin/bash
-find /holbertonschool-shell/io_redirections_and_filters/ -type f,d ! -name "io_redirections_and_filters" -print | wc -l
+find /holbertonschool-shell/io_redirections_and_filters/ -name ".*" ! -name "io_redirections_and_filters" -type f,d -print | wc -l
